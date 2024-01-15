@@ -1,0 +1,1071 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url("../fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-Medium;
+    src: url("../fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-Italic;
+    src: url("../fonts/Ubuntu-Italic.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-LightItalic;
+    src: url("../fonts/Ubuntu-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-BoldItalic;
+    src: url("../fonts/Ubuntu-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: Philosopher-Regular;
+    src: url("../fonts/Philosopher-Regular.ttf");
+}
+
+@font-face {
+    font-family: ElMessiri-Regular;
+    src: url("../fonts/ElMessiri-Regular.ttf");
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 28px 0 48px 0;
+    background-color: #ede9ea;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu ul {
+    display: flex;
+    gap: 55px;
+    margin-bottom: 0;
+}
+
+.header-menu li {
+    list-style: none;
+    align-self: end;
+}
+
+.header-menu a {
+    text-decoration: none;
+    font-family: Ubuntu-Regular, sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+.header-number {
+    align-self: flex-end;
+    font-family: Philosopher-Regular, sans-serif;
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    line-height: 1.2;
+}
+
+body {
+    background-image: url("../img/fon-222.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 234px;
+}
+
+.hero .container {
+    position: relative;
+
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-family: Philosopher-Regular, sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.1;
+    width: 550px;
+    padding-top: 68px;
+}
+
+.hero-title {
+    display: flex;
+    font-size: 18px;
+    font-family: Ubuntu-Regular, sans-serif;
+    color: rgb(48, 48, 48);
+    margin: 30px 0 40px 0;
+}
+
+.btn {
+    font-family: Ubuntu-Medium, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(214, 117, 21);
+    box-shadow: 0 20px 40px -10px rgba(214, 117, 21, 0.80);
+    border: none;
+    cursor: pointer;
+}
+
+.hero-button {
+    width: 220px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.hero-discount {
+    position: absolute;
+    right: 136px;
+    top: 174px;
+    background: black;
+    border-radius: 50%;
+    height: 133px;
+    width: 133px;
+    display: grid;
+    align-content: center;
+}
+
+.hero-discount .discount {
+    display: block;
+    font-size: 28px;
+    font-family: Ubuntu-BoldItalic, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.hero-discount .discount-date {
+    display: block;
+    font-family: Ubuntu-Italic, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.quote {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: Ubuntu-Italic, sans-serif;
+    line-height: 1.25;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 20px 30px -10px rgb(69 59 49 / 37%);
+}
+
+.quote-name {
+    position: absolute;
+}
+
+.hero-quote {
+    right: 44px;
+    top: 500px;
+    padding: 26px 20px 48px 23px;
+    max-width: 410px;
+    height: 34px;
+}
+
+.hero-quote-name {
+    right: 23px;
+    bottom: 26px;
+}
+
+
+/*///////////*/
+
+.slider {
+    width: 1170px;
+    display: block;
+    margin: 0 auto;
+}
+
+.slick-slide {
+    margin: 0 12px;
+    justify-content: center
+}
+
+.slider-item {
+    height: 390px;
+    width: 394px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 15px 8px -3px rgb(69 59 49 / 37%);
+}
+
+.slider-item {
+
+}
+
+.slider-item-image-2 {
+    justify-content: end;
+}
+
+.slider-item-image-1, .slider-item-image-4, .slider-item-image-7  {
+    background-image: url("../img/lot-1.png");
+}
+
+.slider-item-image-2, .slider-item-image-5, .slider-item-image-8 {
+    background-image: url("../img/lot-2.png");
+}
+
+.slider-item-image-3, .slider-item-image-6, .slider-item-image-9  {
+    background-image: url("../img/lot-3.png");
+}
+
+.slider-item-sticker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #80994b;
+    color: white;
+    font-size: 12px;
+    font-family: Ubuntu-Medium, sans-serif;
+    height: 40px;
+    width: 208px;
+}
+
+.slider-item-sticker img {
+    margin-right: 11px;
+}
+
+.slider-for {
+    text-align: center;
+    margin-top: 58px;
+}
+
+.slider-item-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-item-text-1 {
+    font-size: 18px;
+    font-family: Philosopher-Regular, sans-serif;
+    margin-left: 20px;
+    margin-bottom: 19px;
+}
+
+.slider-item-text-2 {
+    font-size: 18px;
+    font-family: Ubuntu-Medium, sans-serif;
+    margin-right: 36px;
+    margin-bottom: 20px;
+}
+
+.slick-prev:before {
+    content: url("../img/arrow-left.png");
+}
+
+.slick-next:before {
+    content: url("../img/arrow-right.png");
+}
+
+.slick-list {
+    padding-bottom: 20px;
+}
+
+
+/*адаптив*/
+
+.slider-for {
+    display: none;
+}
+
+.slick-dots {
+    bottom: -64px;
+}
+
+.slick-dots li button:before {
+    content: '';
+    border-width: 1px;
+    border-color: rgb(25, 25, 23);
+    border-style: solid;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.slick-prev, .slick-next {
+    top: 459px;
+    margin: 0 -30px;
+}
+
+.slick-next {
+    right: 507px;
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 507px;
+    z-index: 1;
+}
+
+.slick-dots li button:before {
+    width: 16px;
+    height: 16px;
+}
+/*//////////*/
+
+.main {
+    background-size: cover;
+    padding-top: 208px;
+    text-align: center;
+}
+
+.main-plants h2 {
+    font-size: 35px;
+    font-family: Philosopher-Regular, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 70px;
+}
+
+.main-advantages {
+    padding-top: 193px;
+}
+
+.main-advantages .container {
+    background-image: url("../img/back-advantages.png");
+    background-position: center;
+    background-size: cover;
+    height: 625px;
+    /*margin-top: 207px;*/
+    position: relative;
+    text-align: left;
+    box-shadow: 0 20px 30px -10px rgb(69 59 49 / 37%);
+}
+
+
+.main-advantages h2 {
+    font-size: 35px;
+    font-family: Philosopher-Regular, sans-serif;
+    line-height: 1.029;
+    position: absolute;
+    left: 589px;
+    top: 55px;
+}
+
+.main-advantages-causes-item {
+    position: absolute;
+    display: flex;
+}
+
+.main-advantages-causes-item {
+    font-family: Ubuntu-Regular, sans-serif;
+}
+
+
+.main-advantages-causes-text {
+    margin-left: 18px;
+}
+
+.main-advantages .item-1 {
+    top: 152px;
+    left: 590px;
+}
+
+.main-advantages .item-1 .main-advantages-causes-text {
+    width: 215px;
+}
+
+.main-advantages .item-2 {
+    top: 223px;
+    left: 890px;
+}
+
+.main-advantages .item-2 .main-advantages-causes-text {
+    width: 230px;
+}
+
+.main-advantages .item-2 div span {
+    display: block;
+}
+
+.main-advantages .item-3 {
+    top: 313px;
+    left: 577px;
+}
+
+.main-advantages .item-3 .main-advantages-causes-text {
+    width: 207px;
+}
+
+.main-advantages .item-4 {
+    top: 364px;
+    left: 891px;
+}
+
+.main-advantages .item-4 .main-advantages-causes-text {
+    width: 210px;
+}
+
+
+.main-advantages .item-5 {
+    top: 457px;
+    left: 572px;
+}
+
+.main-advantages .item-5 .main-advantages-causes-text {
+    width: 226px;
+}
+
+.main-advantages-quote {
+    left: 25px;
+    top: 525px;
+    padding: 26px 23px 47px 23px;
+    width: 386px;
+    height: 56px;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+
+.main-advantages-quote-name {
+    right: 35px;
+    bottom: 27px;
+}
+
+.main-only {
+    padding: 179px 0 160px 0;
+}
+
+.main-only h2 {
+    font-size: 35px;
+    font-family: Philosopher-Regular, sans-serif;
+    margin-bottom: 50px;
+}
+
+.only-img {
+    display: flex;
+    gap: 25px;
+    justify-content: center
+}
+
+.only-img-item {
+    width: 210px;
+    height: 210px;
+    background-color: #edece7;
+    box-shadow: 0 20px 30px -10px rgb(69 59 49 / 37%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    align-content: space-between;
+}
+
+.only-img-item span {
+    font-size: 18px;
+    font-family: Ubuntu-Regular, sans-serif;
+    line-height: 1.111;
+}
+
+.only-img-item.item-1 img {
+    padding: 16px 0 0 60px;
+}
+
+.only-img-item.item-1 span {
+    padding: 0 27px 16px 28px;
+}
+
+
+.only-img-item.item-2 img {
+    padding: 23px 0 0 41px;
+}
+
+.only-img-item.item-2 span {
+    padding: 0 19px 29px 18px;
+}
+
+.only-img-item.item-3 img {
+    top: 24px;
+    right: 37px;
+    padding: 24px 0 0 42px;
+}
+
+.only-img-item.item-3 span {
+    padding: 0 33px 12px 34px;
+}
+
+.only-img-item.item-4 img {
+    top: 23px;
+    right: 42px;
+    padding: 23px 0 0 41px;
+}
+
+.only-img-item.item-4 span {
+    padding: 0 12px 9px 11px;
+}
+
+.only-img-item.item-5 img {
+    top: 24px;
+    right: 35px;
+    padding: 24px 0 0 39px;
+}
+
+.only-img-item.item-5 span {
+    padding: 0 19px 30px 18px;
+}
+
+.main-connoisseurs {
+    padding: 50px 0 90px 0;
+}
+
+.main-connoisseurs h2 {
+    font-size: 35px;
+    font-family: Philosopher-Regular, sans-serif;
+    line-height: 1.029;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.main-connoisseurs p {
+    font-size: 18px;
+    font-family: Ubuntu-Regular, sans-serif;
+    color: rgb(49, 49, 49);
+    line-height: 1.556;
+    text-align: left;
+    max-width: 517px;
+    margin-bottom: 0;
+}
+
+.main-connoisseurs-img {
+    width: 282px;
+    height: 244px;
+    display: grid;
+    align-content: end;
+}
+
+.main-connoisseurs-img {
+    box-shadow: 0 20px 30px -10px rgb(69 59 49 / 37%);
+}
+
+.main-connoisseurs-img-text {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background: rgb(130, 120, 97);
+    background: linear-gradient(90deg, rgba(130, 120, 97, 1) 0%, rgba(124, 129, 82, 1) 40%, rgba(166, 133, 110, 1) 100%);
+    align-items: center;
+}
+
+
+.main-connoisseurs-img-text-1 {
+    font-size: 18px;
+    font-family: Philosopher-Regular, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 16px;
+}
+
+.main-connoisseurs-img-text-2 {
+    font-size: 18px;
+    font-family: Ubuntu-Medium, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+}
+
+.main-connoisseurs-img-text-2 span {
+    font-size: 15px;
+    font-family: Ubuntu-Regular, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: line-through;
+    margin-right: 15px;
+}
+
+.main-connoisseurs-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-connoisseurs-items-com {
+    display: flex;
+    gap: 64px;
+}
+
+.main-connoisseurs-items-1 .main-connoisseurs-img-1 {
+    margin-bottom: 64px;
+    background-image: url("../img/connoisseurs/img-1.png");
+}
+
+.main-connoisseurs-items-1 .main-connoisseurs-img-2 {
+    background-image: url("../img/connoisseurs/img-2.png");
+    position: relative;
+}
+
+.main-connoisseurs-items-2 .main-connoisseurs-img-1 {
+    margin-bottom: 64px;
+    background-image: url("../img/connoisseurs/img-3.png");
+}
+
+.main-connoisseurs-items-2 .main-connoisseurs-img-2 {
+    background-image: url("../img/connoisseurs/img-4.png");
+}
+
+.main-connoisseurs-img-3 {
+    background-image: url("../img/connoisseurs/img-5.png");
+    height: 512px;
+    width: 508px;
+    position: relative;
+}
+
+.main-connoisseurs-items-1 {
+    margin-top: 123px;
+}
+
+.main-connoisseurs-items-2 {
+    margin-top: 64px;
+}
+
+.main-connoisseurs-new {
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #d67515;
+    border-radius: 50%;
+    font-size: 14px;
+    font-family: Ubuntu-Medium, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.714;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-connoisseurs-discount {
+    position: absolute;
+    left: 12px;
+    top: 45px;
+    font-size: 14px;
+    font-family: Ubuntu-Medium, sans-serif;
+    color: rgb(255, 255, 255);
+    transform: rotate(-45deg);
+}
+
+.main-creation-video {
+    padding-bottom: 150px;
+}
+
+.main-creation-video iframe {
+    box-shadow: 0 20px 30px -10px rgb(69 59 49 / 37%);
+}
+
+.main-creation-video h2 {
+    font-size: 35px;
+    font-family: Philosopher-Regular, sans-serif;
+    color: rgb(35, 28, 20);
+    line-height: 1.029;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-creation-video p {
+    font-size: 18px;
+    font-family: Ubuntu-Regular, sans-serif;
+    color: rgb(35, 28, 20);
+    line-height: 1.667;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.main-form-back {
+    background-image: url("../img/fon-bottom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 111px;
+}
+
+.main-form {
+    position: relative;
+    display: inline-block;
+    background-color: #f7f5f2;
+    padding: 71px 78px 70px 78px;
+    box-shadow: 0 20px 30px -10px rgb(69 59 49 / 37%);
+}
+
+.main-form h2 {
+    font-size: 35px;
+    font-family: Philosopher-Regular, sans-serif;
+    margin-bottom: 30px;
+}
+
+.main-form p {
+    font-size: 18px;
+    font-family: Ubuntu-Regular, sans-serif;
+    color: rgb(49, 49, 49);
+    line-height: 1.556;
+    width: 400px;
+    margin: 0 auto;
+}
+
+input::placeholder {
+    font-size: 15px;
+    font-family: Ubuntu-Regular, sans-serif;
+    color: rgb(146, 146, 146);
+}
+
+.main-form input, select {
+    padding: 19px 30px 19px 54px;
+    width: 360px;
+    height: 15px;
+    border: none;
+    font-size: 15px;
+    font-family: Ubuntu-Regular, sans-serif;
+    color: rgb(146, 146, 146);
+    background-position: bottom 50% left 20px;
+    background-repeat: no-repeat;
+    box-shadow: 0 20px 30px -20px rgb(69 59 49 / 37%);
+}
+
+input:focus {
+    outline: none;
+}
+
+.main-form-text {
+    text-align: left;
+    margin: 32px 0 7px 0;
+    font-size: 16px;
+    font-family: Ubuntu-Regular, sans-serif;
+    color: rgba(49, 49, 49, 0.8);
+}
+
+.main-form-name {
+    background-image: url("../img/form/user.png");
+}
+
+.main-form-numb {
+    background-image: url("../img/form/phone.png");
+}
+
+.main-form-select {
+    background-image: url("../img/form/lotus.png");
+    width: 444px;
+    height: 54px;
+    outline: none;
+}
+
+
+.select {
+    position: relative;
+}
+
+.select:after {
+    content: url("../img/form/next.png");
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+select {
+    appearance: none;
+}
+
+.main-form-radio {
+    text-align: left;
+    margin-top: 32px;
+}
+
+
+.main-form .main-form-checkbox {
+    margin-right: 19px;
+    width: auto;
+    border-radius: 40px 10px;
+    vertical-align: middle;
+}
+
+.main-form-radio span {
+    vertical-align: middle;
+    font-size: 15px;
+    font-family: Ubuntu-Regular, sans-serif;
+    color: rgb(49, 49, 49);
+}
+
+.main-form-invisible {
+    display: none;
+    text-align: left;
+    margin-top: 5px;
+    color: red;
+    font-family: Ubuntu-Regular, sans-serif;
+}
+
+.main-button {
+    margin-top: 37px;
+    width: 444px;
+    height: 58px;
+}
+
+.main-inst {
+    padding: 78px 0 148px 0;
+}
+
+.main-inst h2 {
+    font-size: 35px;
+    font-family: Philosopher-Regular, sans-serif;
+    color: rgb(4, 4, 4);
+    line-height: 1.029;
+    margin-bottom: 31px;
+}
+
+.main-inst p {
+    font-size: 20px;
+    font-family: ElMessiri-Regular, sans-serif;
+    color: rgb(35, 28, 20);
+    margin-bottom: 71px;
+}
+
+.main-collage {
+    display: flex;
+}
+
+.main-collage-comp {
+    display: flex;
+}
+
+.main-collage-1 img {
+    display: block;
+    box-shadow: 0 20px 30px 0 rgb(69 59 49 / 37%);
+}
+
+.main-collage-2 img {
+    display: block;
+    box-shadow: 0 20px 30px 0 rgb(69 59 49 / 37%);
+}
+
+.main-collage-3 img {
+    box-shadow: 0 20px 30px 0 rgb(69 59 49 / 37%);
+}
+
+.footer {
+    background-color: #222222;
+    padding: 32px 0 70px 0;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    margin-bottom: 46px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 20px;
+    grid-column: 1;
+}
+
+.footer-social img:hover {
+    opacity: 90%;
+}
+
+.footer-plants, .footer-phone, .footer-address {
+    font-size: 15px;
+    font-family: Ubuntu-Medium, sans-serif;
+    color: rgb(255, 255, 255);
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.footer-plants-text {
+    display: flex;
+    margin-bottom: 19px;
+    text-decoration: none;
+    font-family: Ubuntu-Medium, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.footer-plants {
+    margin-top: 37px;
+}
+
+.footer-phone {
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: 43px;
+    white-space: nowrap;
+}
+
+.footer-phone p {
+    margin-bottom: 23px;
+}
+
+.footer-phone span {
+    font-size: 24px;
+    font-family: Philosopher-Regular, sans-serif;
+    color: rgb(214, 117, 21);
+    line-height: 1.2;
+    vertical-align: middle;
+}
+
+.footer-phone img {
+    vertical-align: middle;
+}
+
+.footer-address {
+    grid-column: 3;
+    grid-row: 1;
+    margin-top: 37px;
+}
+
+.footer-address-text {
+    font-size: 14px;
+    font-family: Ubuntu-Regular, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.429;
+    margin-top: 20px;
+    width: 338px;
+}
+
+.footer-subscribe {
+    grid-column: 3;
+    grid-row: 3;
+    margin-top: 43px;
+}
+
+.footer-subscribe p {
+    font-size: 15px;
+    font-family: Ubuntu-Medium, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.467;
+    width: 262px;
+    margin-bottom: 20px;
+}
+
+.footer-subscribe div {
+    display: flex;
+}
+
+.footer-subscribe input {
+    background-color: #222222;
+    border: 1px #d67515 solid;
+    padding: 21px;
+    width: 230px;
+    height: 6px;
+    font-size: 16px;
+    font-family: Ubuntu-Regular, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.footer-subscribe input::placeholder {
+    font-size: 16px;
+    font-family: Ubuntu-Regular, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.footer-subscribe button {
+    border: none;
+    background-color: #d67515;
+    padding: 0 36px 0 30px;
+    font-size: 15px;
+    font-family: Ubuntu-Medium, sans-serif;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 161px;
+}
+
+.footer-subscribe-disable {
+    display: none;
+    grid-column: 3;
+    grid-row: 3;
+    margin-top: 43px;
+    font-size: 26px;
+    font-family: Ubuntu-Medium, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.close {
+    display: none;
+    position: fixed;
+    padding: 35px 20px 0 0;
+    width: 30px;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+}
+
+.header-menu ul {
+    list-style: none;
+}
+
+.header-menu li {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.header-menu svg {
+    fill: white;
+}
+
+.main-form {
+    display: inline-block;
+}
+
+
+.main-show {
+    display: none;
+    padding: 152px 22px 152px 22px;
+    width: 400px;
+    height: 300px;
+}
+
+.main-show h2 {
+    font-size: 28px;
+    font-family: Philosopher-Regular, sans-serif;
+    color: rgb(35, 28, 20);
+    line-height: 1.25;
+    margin-bottom: 43px;
+    padding: 0 20px;
+}
+
+.main-show p {
+    font-size: 18px;
+    font-family: Ubuntu-Regular, sans-serif;
+    color: rgb(49, 49, 49);
+    line-height: 1.278;
+}
+
+.main-form-close {
+    display: none;
+    position: absolute;
+    padding: 16px 16px 0 0;
+    width: 25px;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.main-form-close svg {
+    fill: #919191;
+}
